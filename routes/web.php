@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 Route::view('/challenges', 'challenges');
 Route::view('/create-challenges', 'create-challenges');
+Route::view('/login', 'login');

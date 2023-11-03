@@ -42,36 +42,27 @@
         </div>
     </nav>
 
-    <!-- Hero Section 1 -->
-    <section id="hero" class="container mt-4">
+    <!-- Login Section -->
+    <section id="login" class="container mt-4 text-center">
         <div class="row">
-            <div class="hero-p col-md-6">
-                <h3>PLATFORM PEMBELAJARAN CYBERSECURITY</h3>
-                <h1>DENGAN METODE GAMIFIKASI CAPTURE THE FLAG</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="btn btn-pink">Pelajari Lebih Lanjut</button>
-            </div>
-            <div class="hero-img col-md-6">
-                <img src="{{ asset('assets/img/icon1.png') }}" alt="Icon 1" class="img-fluid" width="400"
-                    height="400">
+            <div class="col-md-6 offset-md-3">
+                <img src="{{ asset('assets/img/LOGO.png') }}" alt="Logo" class="img-fluid">
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <button type="submit" class="btn btn-pink">Login</button>
+                    <button type="submit" class="btn btn-pink">Register Now</button>
+                </form>
             </div>
         </div>
     </section>
 
-    <!-- Hero Section 2 -->
-    <section id="heroes" class="container mt-4">
-        <div class="row">
-            <div class="heroes-img col-md-6">
-                <img src="{{ asset('assets/img/icon2.png') }}" alt="Icon 2" class="img-fluid">
-            </div>
-            <div class="heroes-p col-md-6">
-                <h3>JUDUL HERO SECTION 2</h3>
-                <h1>JUDUL HERO SECTION 2</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="btn btn-pink">Pelajari Lebih Lanjut</button>
-            </div>
-        </div>
-    </section>
 
     <!-- Footer -->
     <footer class="bg-dark text-light text-center py-4">
