@@ -19,4 +19,5 @@ Route::get('/', function () {
 
 Route::view('/challenges', 'challenges');
 Route::view('/create-challenges', 'create-challenges');
+Route::view('/tambah-cl', 'tambah-cl');
 Route::view('/login', 'login');

@@ -42,45 +42,44 @@
         </div>
     </nav>
 
-    <!-- Hero Section 1 -->
-    <section id="hero" class="container mt-4">
+    <!-- Add Challenges Section -->
+    <section id="ad-cl" class="container mt-4 text-center">
         <div class="row">
-            <div class="hero-p col-md-6">
-                <h3>PLATFORM PEMBELAJARAN CYBERSECURITY</h3>
-                <h1>DENGAN METODE GAMIFIKASI CAPTURE THE FLAG</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing
-                    and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled
-                    it to make a type specimen book. It has survived not only five centuries.
-                </p>
-                <button class="btn btn-pink">Pelajari Lebih Lanjut</button>
-            </div>
-            <div class="hero-img col-md-6">
-                <img src="{{ asset('assets/img/icon1.png') }}" alt="Icon 1" class="img-fluid" width="400"
-                    height="400">
+            <div class="col-md-6 offset-md-3">
+                <h1>Add Challenges</h1>
             </div>
         </div>
     </section>
 
-    <!-- Hero Section 2 -->
-    <section id="heroes" class="container mt-4">
-        <div class="row">
-            <div class="heroes-img col-md-6">
-                <img src="{{ asset('assets/img/icon2.png') }}" alt="Icon 2" class="img-fluid">
-            </div>
-            <div class="heroes-p col-md-6">
-                <h3>Kamu Mungkin Memerlukan ini!!</h3>
-                <h1>ONLINE COURSES CYBERSCURITY</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing
-                    and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type and scrambled
-                    it to make a type specimen book. It has survived not only five centuries.
-                </p>
-                <button class="btn btn-pink">Pelajari Lebih Lanjut</button>
-            </div>
-        </div>
+    <!-- Challenges Table Section -->
+    <section id="cl-tb" class="container mt-4">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Category</th>
+                    <th>Value</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Revanza</td>
+                    <td>Dynamic</td>
+                    <td>True</td>
+                    <td>
+                        <button class="btn btn-pink">Update</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-pink">Delete</button>
+                    </td>
+                </tr>
+                <!-- Tambahkan baris lain sesuai kebutuhan -->
+            </tbody>
+        </table>
     </section>
 
     <!-- Footer -->
