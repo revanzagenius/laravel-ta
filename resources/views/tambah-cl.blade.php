@@ -77,6 +77,90 @@
                         <button class="btn btn-pink">Delete</button>
                     </td>
                 </tr>
+                <tr>
+                    <td>01</td>
+                    <td>Revanza</td>
+                    <td>Dynamic</td>
+                    <td>True</td>
+                    <td>
+                        <button class="btn btn-pink">Update</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-pink">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>Revanza</td>
+                    <td>Dynamic</td>
+                    <td>True</td>
+                    <td>
+                        <button class="btn btn-pink">Update</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-pink">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>Revanza</td>
+                    <td>Dynamic</td>
+                    <td>True</td>
+                    <td>
+                        <button class="btn btn-pink">Update</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-pink">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>Revanza</td>
+                    <td>Dynamic</td>
+                    <td>True</td>
+                    <td>
+                        <button class="btn btn-pink">Update</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-pink">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>Revanza</td>
+                    <td>Dynamic</td>
+                    <td>True</td>
+                    <td>
+                        <button class="btn btn-pink">Update</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-pink">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>Revanza</td>
+                    <td>Dynamic</td>
+                    <td>True</td>
+                    <td>
+                        <button class="btn btn-pink">Update</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-pink">Delete</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>01</td>
+                    <td>Revanza</td>
+                    <td>Dynamic</td>
+                    <td>True</td>
+                    <td>
+                        <button class="btn btn-pink">Update</button>
+                    </td>
+                    <td>
+                        <button class="btn btn-pink">Delete</button>
+                    </td>
+                </tr>
                 <!-- Tambahkan baris lain sesuai kebutuhan -->
             </tbody>
         </table>
